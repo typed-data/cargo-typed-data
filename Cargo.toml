@@ -1,0 +1,16 @@
+[package]
+name = "cargo-typed-data"
+version = "0.1.0"
+edition = "2024"
+authors = ["Marius Seritan finch.baggies-1h@icloud.com"]
+license = "Apache-2.0"
+description = "Generate structs from Parquet schemas."
+
+[dependencies]
+anyhow = "1.0.95"
+clap = "4.5.26"
+codegen = "0.2.0"
+hf = "0.3.10"
+hf-hub = "0.4.1"
+once_cell = "1.20.2"
+parquet = "54.0.0"
